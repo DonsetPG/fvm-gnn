@@ -1,0 +1,12 @@
+torch>=2.2
+torch-geometric>=2.5
+torch-scatter
+torch-sparse
+torch-cluster
+torch-spline-conv
+numpy
+meshio
+pygmsh
+wandb
+pysr
+scikit-learn

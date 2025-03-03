@@ -1,0 +1,10 @@
+program: train.py
+method: grid
+project: heat-gnn
+parameters:
+  l1:
+    values: [0.0, 1.0e-06, 1.0e-05, 1.0e-04,1.0e-03,1.0e-02]
+  lr:
+    values: [0.001, 0.0005]
+  batch_size:
+    values: [32]
